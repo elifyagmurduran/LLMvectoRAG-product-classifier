@@ -1,0 +1,56 @@
+# Secrets — never commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Vector store artefacts (large binary files — regenerate with build-vectors)
+data/vector_store/
+
+# Data inputs (may contain proprietary taxonomy data)
+data/input/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# mypy / pyright
+.mypy_cache/
+.pyright/
+pyrightconfig.json
+docs/todo/
+docs/done/

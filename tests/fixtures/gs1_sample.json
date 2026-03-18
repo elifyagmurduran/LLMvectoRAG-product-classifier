@@ -1,0 +1,242 @@
+{
+  "LanguageCode": "EN",
+  "DateUtc": "27/11/2025",
+  "Schema": [
+    {
+      "Level": 1,
+      "Code": 10000000,
+      "Title": "Food/Beverage/Tobacco",
+      "Definition": "Includes all food, beverage and tobacco products intended for human consumption.",
+      "DefinitionExcludes": null,
+      "Active": true,
+      "Childs": [
+        {
+          "Level": 2,
+          "Code": 10100000,
+          "Title": "Beverages",
+          "Definition": "Includes all products that are intended to be consumed as a drink.",
+          "DefinitionExcludes": "Excludes products such as non-drinkable liquids.",
+          "Active": true,
+          "Childs": [
+            {
+              "Level": 3,
+              "Code": 10101000,
+              "Title": "Hot Beverages",
+              "Definition": "Includes all products that are typically consumed as a warm or hot drink.",
+              "DefinitionExcludes": null,
+              "Active": true,
+              "Childs": [
+                {
+                  "Level": 4,
+                  "Code": 10001234,
+                  "Title": "Instant Coffee/Coffee Substitutes",
+                  "Definition": "Includes any products that can be described/observed as a soluble powder or granules derived from brewed coffee, intended to be dissolved in hot water. Includes products such as Instant Coffee, Coffee Granules and Coffee Substitutes.",
+                  "DefinitionExcludes": "Excludes Ground Coffee and Whole Bean Coffee classified elsewhere.",
+                  "Active": true,
+                  "Childs": [
+                    {
+                      "Level": 5,
+                      "Code": 20001234,
+                      "Title": "Type of Instant Coffee/Coffee Substitute",
+                      "Definition": "Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of instant coffee or coffee substitute.",
+                      "DefinitionExcludes": null,
+                      "Active": true,
+                      "Childs": [
+                        {
+                          "Level": 6,
+                          "Code": 30001234,
+                          "Title": "DECAFFEINATED INSTANT COFFEE",
+                          "Definition": "",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30001235,
+                          "Title": "REGULAR INSTANT COFFEE",
+                          "Definition": "",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30001236,
+                          "Title": "FLAVOURED INSTANT COFFEE",
+                          "Definition": "",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30002515,
+                          "Title": "UNCLASSIFIED",
+                          "Definition": "This term is used to describe those product attributes that are unable to be classified within their specific market.",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30002518,
+                          "Title": "UNIDENTIFIED",
+                          "Definition": "This term is used to describe those product attributes that are unidentifiable given existing or available product information.",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Level": 4,
+                  "Code": 10001235,
+                  "Title": "Ground Coffee",
+                  "Definition": "Includes any products that can be described/observed as roasted coffee beans reduced to small particles for use in a coffee maker or filter. Includes products such as Espresso Ground Coffee and Filter Ground Coffee.",
+                  "DefinitionExcludes": "Excludes Whole Bean Coffee and Instant Coffee classified elsewhere.",
+                  "Active": true,
+                  "Childs": [
+                    {
+                      "Level": 5,
+                      "Code": 20001235,
+                      "Title": "Type of Ground Coffee",
+                      "Definition": "Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of ground coffee.",
+                      "DefinitionExcludes": null,
+                      "Active": true,
+                      "Childs": [
+                        {
+                          "Level": 6,
+                          "Code": 30001237,
+                          "Title": "ESPRESSO GROUND COFFEE",
+                          "Definition": "",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30001238,
+                          "Title": "FILTER GROUND COFFEE",
+                          "Definition": "",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30002515,
+                          "Title": "UNCLASSIFIED",
+                          "Definition": "This term is used to describe those product attributes that are unable to be classified within their specific market.",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30002518,
+                          "Title": "UNIDENTIFIED",
+                          "Definition": "This term is used to describe those product attributes that are unidentifiable given existing or available product information.",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Code": 10200000,
+          "Title": "Dairy Products/Eggs",
+          "Definition": "Includes all products that are produced from milk or eggs.",
+          "DefinitionExcludes": "Excludes Dairy Alternatives classified in Beverages.",
+          "Active": true,
+          "Childs": [
+            {
+              "Level": 3,
+              "Code": 10201000,
+              "Title": "Milk",
+              "Definition": "Includes all products that are classified as a white liquid produced by the mammary glands of mammals, used as a food by humans.",
+              "DefinitionExcludes": null,
+              "Active": true,
+              "Childs": [
+                {
+                  "Level": 4,
+                  "Code": 10001236,
+                  "Title": "Fresh Milk",
+                  "Definition": "Includes any products that can be described/observed as pasteurised or homogenised milk sold fresh with a short shelf life. Includes Whole Milk, Semi-Skimmed Milk and Skimmed Milk.",
+                  "DefinitionExcludes": "Excludes UHT Milk, Powdered Milk and Condensed Milk classified elsewhere.",
+                  "Active": true,
+                  "Childs": [
+                    {
+                      "Level": 5,
+                      "Code": 20001236,
+                      "Title": "Type of Fresh Milk",
+                      "Definition": "Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the fat content or type of fresh milk.",
+                      "DefinitionExcludes": null,
+                      "Active": true,
+                      "Childs": [
+                        {
+                          "Level": 6,
+                          "Code": 30001239,
+                          "Title": "WHOLE MILK",
+                          "Definition": "",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30001240,
+                          "Title": "SEMI-SKIMMED MILK",
+                          "Definition": "",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30001241,
+                          "Title": "SKIMMED MILK",
+                          "Definition": "",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30002515,
+                          "Title": "UNCLASSIFIED",
+                          "Definition": "This term is used to describe those product attributes that are unable to be classified within their specific market.",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        },
+                        {
+                          "Level": 6,
+                          "Code": 30002518,
+                          "Title": "UNIDENTIFIED",
+                          "Definition": "This term is used to describe those product attributes that are unidentifiable given existing or available product information.",
+                          "DefinitionExcludes": null,
+                          "Active": true,
+                          "Childs": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
